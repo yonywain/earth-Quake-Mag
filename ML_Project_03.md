@@ -113,9 +113,11 @@ All of these indicators combine 50 earthquake events information (moving stats -
 In order to get better evaluated models it is essential first to check what is the distribution of the indicators:  
 
 
-![TimeDiff Transformation](/Transformations/TimeDiff.png) 
+![TimeDiff Transformation](Transformations/TimeDiff.png) 
+Format: ![Alt Text](url)
 
 ![Energy Transformation](/Transformations/dE0.5.png) 
+Format: ![Alt Text](url)
 
 ![η Transformation](/Transformations/ni.png) 
 
