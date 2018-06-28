@@ -16,7 +16,7 @@ It has long been observed that the relationship between the frequency and the ma
 
 The data set for this project was taken from the catalog of [USGS (United States Geological Survey) website](https://earthquake.usgs.gov/earthquakes/search/). The data contains regional (see Figure 1) recorded seismic network information such as earthquake location, magnitude, date, depth, and more (total of 23 variables and 4071 observations).  
 
-![Dataset area](Dataset area.png) 
+![Dataset area](Dataset area.PNG) 
 
 ## Characterization of the problem
 
@@ -112,15 +112,14 @@ Seismicity Indicators :
 All of these indicators combine 50 earthquake events information (moving stats - similar to moving average by definition) which will be used in the construction of the models.  
 In order to get better evaluated models it is essential first to check what is the distribution of the indicators:  
 
-![TimeDiff Transformation](https://github.com/yonywain/earth-Quake-Mag/blob/master/Transformations/TimeDiff.PNG)
 
-![TimeDiff Transformation](Transformations/TimeDiff.png) 
+![TimeDiff Transformation](Transformations/TimeDiff.PNG) 
 
 ![Energy Transformation](Transformations/dE0.5.PNG) 
 
-![η Transformation](Transformations/ni.png) 
+![η Transformation](Transformations/ni.PNG) 
 
-![a/b ratio transformation](Transformations/a.b ratio.png) 
+![a/b ratio transformation](Transformations/a.b ratio.PNG) 
 
 Several features were transformed, according to the figures above:
 
@@ -222,7 +221,7 @@ Taking into account all evaluation measures, the conclusion regarding the best f
 
 The implementation plan in the figure below describes in a basic way how the chosen model should fit into the corporation's system (considered as a general preliminary plan). The purpose of the model is to supply answer regarding the predicted value (in this case: yes/no output) which in turn dictate the response of the corporation to the tested situation (for example: the amount to be collected for force majeure insurance).
 
-![Implementation plan ](Implementation Plan.png) 
+![Implementation plan ](Implementation Plan.PNG) 
 
 In conclusion, the purpose of this project was to supply basic model evaluation regarding earthquake data. The tested models show different functionality and qualities. In order to maximize the process of modeling and understanding, further examiniation is required such as:  
 
