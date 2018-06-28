@@ -114,14 +114,12 @@ In order to get better evaluated models it is essential first to check what is t
 
 
 ![TimeDiff Transformation](Transformations/TimeDiff.png) 
-Format: ![Alt Text](url)
 
-![Energy Transformation](/Transformations/dE0.5.png) 
-Format: ![Alt Text](url)
+![Energy Transformation](Transformations/dE0.5.png) 
 
-![η Transformation](/Transformations/ni.png) 
+![η Transformation](Transformations/ni.png) 
 
-![a/b ratio transformation](/Transformations/a.b ratio.png) 
+![a/b ratio transformation](Transformations/a.b ratio.png) 
 
 Several features were transformed, according to the figures above:
 
@@ -223,7 +221,7 @@ Taking into account all evaluation measures, the conclusion regarding the best f
 
 The implementation plan in the figure below describes in a basic way how the chosen model should fit into the corporation's system (considered as a general preliminary plan). The purpose of the model is to supply answer regarding the predicted value (in this case: yes/no output) which in turn dictate the response of the corporation to the tested situation (for example: the amount to be collected for force majeure insurance).
 
-![Implementation plan ](/Implementation Plan.png) 
+![Implementation plan ](Implementation Plan.png) 
 
 In conclusion, the purpose of this project was to supply basic model evaluation regarding earthquake data. The tested models show different functionality and qualities. In order to maximize the process of modeling and understanding, further examiniation is required such as:  
 
