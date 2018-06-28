@@ -112,10 +112,11 @@ Seismicity Indicators :
 All of these indicators combine 50 earthquake events information (moving stats - similar to moving average by definition) which will be used in the construction of the models.  
 In order to get better evaluated models it is essential first to check what is the distribution of the indicators:  
 
+![TimeDiff Transformation](https://github.com/yonywain/earth-Quake-Mag/blob/master/Transformations/TimeDiff.PNG)
 
 ![TimeDiff Transformation](Transformations/TimeDiff.png) 
 
-![Energy Transformation](Transformations/dE0.5.png) 
+![Energy Transformation](Transformations/dE0.5.PNG) 
 
 ![η Transformation](Transformations/ni.png) 
 
