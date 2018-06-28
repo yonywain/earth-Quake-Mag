@@ -12,7 +12,7 @@ output:
 # Machine Learning project
 
 ## Data Selection and background
-It has long been observed that the relationship between the frequency and the magnitude of seismic events in a given region follows the power law. In other words, when observing earthquake occurrences over time we expect the earthquakes of small magnitude to be much more frequent than the earthquakes of large magnitude. Following the study of California earthquakes by, this relationship is named the Gutenberg-Richter inverse power law and it is defined mathematically as follows: $$Log_{10}N(M)=a-bM$$
+It has long been observed that the relationship between the frequency and the magnitude of seismic events in a given region follows the power law. In other words, when observing earthquake occurrences over time we expect the earthquakes of small magnitude to be much more frequent than the earthquakes of large magnitude. Following the study of California earthquakes by, this relationship is named the Gutenberg-Richter inverse power law and it is defined mathematically as follows: ![](http://latex.codecogs.com/gif.latex?Log_%7B10%7DN%28M%29%3Da-bM)
 
 The data set for this project was taken from the catalog of [USGS (United States Geological Survey) website](https://earthquake.usgs.gov/earthquakes/search/). The data contains regional (see Figure 1) recorded seismic network information such as earthquake location, magnitude, date, depth, and more (total of 23 variables and 4071 observations).  
 
