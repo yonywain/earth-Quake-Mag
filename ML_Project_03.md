@@ -135,7 +135,7 @@ In this section the mentioned models (Decision tree, KNN, SVM, NNET) will be con
   
 
 
-For commparison purpose, the fraction of true target-feature (AboveMedian) values (value of "1") is 0.4674037.  
+For comparison purpose, the fraction of true target-feature (AboveMedian) values (value of "1") is 0.4674037.  
 Below are the constructed models and their confusion matrices and accuracy:  
 
 ### Decision Tree
@@ -213,7 +213,7 @@ Below are the generated ROC curves:
 
 ![](ML_Project_03_files/figure-html/ROC-1.png)<!-- -->
 
-This graph shows the clear inferiority of the KNN model in relation to the other models (despite its relative high F-measure). Not only that, but this model also found to be worse than a total random model (described in the literature as the diagonal line connecting between 0,0 and 1,1 points).Also worth noting is the similarity between the other 3 models in the higher range of the false positive rate and their divergence in the lower range.  
+This graph shows the clear inferiority of the KNN model in relation to the other models (despite its relative high F-measure). Not only that, but this model also found to be worse than a total random model (described in the literature as the diagonal line connecting between 0,0 and 1,1 points). Also worth noting is the similarity between the other 3 models in the higher range of the false positive rate and their divergence in the lower range.  
 Taking into account all evaluation measures, the conclusion regarding the best fitted model for the task in question is to use the decision tree model.  
 
 ## Implementation plan and further examination  
@@ -228,7 +228,7 @@ In conclusion, the purpose of this project was to supply basic model evaluation 
 * Check other transformations.  
 * Check models with more effective indicators (exclude indicators that has little contribution).  
 * Improve models according to discovered patterns.  
-* Check the significance of predications.   
+* Check the significance of predictions.   
 * Check additional models.  
 * Check other configurations of implementations.  
 * Apply model updating according to new data.  
