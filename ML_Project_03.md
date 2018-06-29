@@ -103,9 +103,9 @@ Seismicity Indicators :
 
 2. TimeDiff - Time elapsed over the last n events (in this project n=50).
 3. Mean Magnitude – mean magnitude of the last n events.
-4. dE1/2 -The rate of square root of seismic energy released over TimeDiff. Calculated by $\frac{\sum E^{1/2}}{TimeDiff}$. The energy component is calculated by $E=10^{11.8+1.5M}erg S$. If the release of seismic energy is disrupted for significantly long periods of time, the accumulated energy will be released abruptly in the form of a major seismic event when the stored energy reaches a threshold.
+4. dE1/2 -The rate of square root of seismic energy released over TimeDiff. Calculated by ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Csum%20E%5E%7B1/2%7D%7D%7BTimeDiff%7D). The energy component is calculated by ![](http://latex.codecogs.com/gif.latex?E%3D10%5E%7B11.8&plus;1.5M%7DergS). If the release of seismic energy is disrupted for significantly long periods of time, the accumulated energy will be released abruptly in the form of a major seismic event when the stored energy reaches a threshold.
 5. b coefficient – b value of the Gutenberg-Richter inverse power law.  
-6. η value – The Mean Squared Error (MSE) of the regression line based on the Gutenberg-Richter inverse power law: $η = \frac{\sum(log_{10}N_i-(a-bM_i))^2}{n-1}$. $N_i$ is the number of events in the sliding window with magnitude Mi or greater. This is a measure of the conformance of the observed seismic data to the Gutenberg-Richter inverse power-law relationship.  
+6. η value – The Mean Squared Error (MSE) of the regression line based on the Gutenberg-Richter inverse power law:![](http://latex.codecogs.com/gif.latex?%5Ceta%20%3D%20%5Cfrac%7B%5Csum%20%28log_%7B10%7DN_%7Bi%7D-%28a-bM_%7Bi%7D%29%29%5E%7B2%7D%7D%7Bn-1%7D). ![](http://latex.codecogs.com/gif.latex?N_%7Bi%7D) is the number of events in the sliding window with magnitude Mi or greater. This is a measure of the conformance of the observed seismic data to the Gutenberg-Richter inverse power-law relationship.  
 7. a/b coefficients - Difference between the largest observed magnitude and the largest expected magnitude based on the Gutenberg-Richter relationship.  
 
 
