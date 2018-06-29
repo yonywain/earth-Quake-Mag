@@ -128,8 +128,6 @@ Several features were transformed, according to the figures above:
 * dE0.5 - data standardization to the range between 0-1 due to a very wide range of data.  
 * ab.Ratio - cube root transformation due to left skewed data.  
 
-Below are the transformed distributions:  
-
 
 
 ## Modeling  
