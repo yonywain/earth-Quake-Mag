@@ -9,7 +9,7 @@ The project was prepared as Rmd file (using RStudio) and was knit to md and html
 Link to project paper:
 [Maximum Earthquake Magnitude from Regional Seismic Data](ML_Project_03.md)
 
-_Short description of the files in the repository:_
+__Short description of the files in the repository:__  
 Israel 2.5.csv - Raw data-set file as mentioned and described in the paper.  
 ML Project 03.Rmd - Source code of the project created by RStudio.  
 ML_Project_03.html - The output of the source code as html format.  
